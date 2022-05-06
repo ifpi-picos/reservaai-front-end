@@ -1,10 +1,10 @@
 # reservaa-front-end
 Projeto Integrador I e Internet I 2022.1
 
-Nome do Produto:
+<b>Nome do Produto:</b>
 RESERVAAÍ
 
-Slogan:
+<b>Slogan:</b>
 “Precisando de um computador pra estudar? RESERVAAÍ!"
 
 Funcionalidades:            
