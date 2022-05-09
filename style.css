@@ -1,0 +1,9 @@
+body {
+    background-image: linear-gradient(to right, #B1DFDE,#D2DDF3);
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
