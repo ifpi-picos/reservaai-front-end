@@ -19,5 +19,3 @@ Benefícios:
 - Os alunos terão mais um meio para praticar programação,
 - Será disponibilizado um ambiente adequado para pesquisa e estudo,
 - Poderão ser feitos os trabalhos passados em sala de aula.
-
-# Teste
