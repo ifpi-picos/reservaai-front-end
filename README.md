@@ -20,5 +20,3 @@ Benefícios:
 - Será disponibilizado um ambiente adequado para pesquisa e estudo,
 - Poderão ser feitos os trabalhos passados em sala de aula.
 
-# Criando uma nova branch
-Build
