@@ -20,5 +20,9 @@ Benefícios:
 - Será disponibilizado um ambiente adequado para pesquisa e estudo,
 - Poderão ser feitos os trabalhos passados em sala de aula.
 
+# Links
+- Protótipos das telas: https://www.figma.com/file/WELJNbVdnF1wMNwnTWZ7jW/Prototipagem-APK?node-id=3%3A6
+- Mapa do site: https://octopus.do/yf7y60jld1i
+
 # Build
 Build é uma branch de construção
