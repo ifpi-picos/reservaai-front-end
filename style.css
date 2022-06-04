@@ -37,3 +37,54 @@ body {
 form [value="cadastro"] {
     background-color: red;
 }
+
+/* CSS - Laboratórios */
+nav{
+    position: relative;
+    /* border: 1px solid black; */
+    min-height: 100px;
+}
+
+nav img{
+    width: 15em;
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-right: -50%;
+    transform: translate(-50%)
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 90%;
+    top: 60%;
+    transform: translate(-60%);
+    
+}
+
+nav li{
+    margin-right: 2em;
+}
+nav a{
+    margin-right: 2em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 0 0 0.2em #8F7
+}
+
+.h2_title{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    
+    border: 2px solid black;
+    border-radius: 20px;
+}
