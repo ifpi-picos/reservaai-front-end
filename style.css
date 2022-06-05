@@ -2,7 +2,6 @@ body {
     margin: 0;
     background-color: #FFFF;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    /* overflow: hidden; */
 }
 .area-inicio {
     display: flex;
@@ -123,4 +122,80 @@ footer{
 }
 footer span{
     font-weight: bold;
+}
+
+/* ---- CSS - Agendamentos ---- */
+.slide-container{
+    display: flex;
+    align-items: center;
+}
+.slide-container .btn-icon{
+    background-color: #fff;
+    outline: none;
+    border: none;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.slide-container .btn-icon:hover{
+    color: red;
+}
+.slide{
+    text-align: center;
+    margin: 0 auto;
+    padding: 2em;
+    
+    width: 80%;
+    height: 150px;
+
+    display: flex;
+    overflow: hidden;
+
+    scroll-behavior: smooth;
+}
+.slide::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.slide-item{
+    width: 18%;
+    height: 150px;
+    margin: 0 5vh;
+
+    border: 3px solid black;
+    border-radius: 20px;
+
+    box-shadow: 10px 5px 5px 1px black;
+}
+.slide-item:hover{
+    background-color: red;
+}
+
+.slide-item p{
+    margin: 20px 0 5px 0;
+    padding: 0;
+
+    font-size: 20px;
+}
+.slide-item h1{
+    margin: 0px 0 20px 0;
+    padding: 0;
+
+    font-size: 3.5em;
+}
+
+#horarios{
+    text-align: center;
+    margin-top: 50px;
+    min-height: 500px;
+}
+#horarios h2{
+    font-size: 2em;
+}
+#horarios #mural{
+    display: flex;
+       
+}
+#horarios #mural div{
+    width: 100%;
+
+    border: 1px solid black;
 }
