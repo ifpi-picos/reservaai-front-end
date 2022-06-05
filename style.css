@@ -1,7 +1,8 @@
 body {
+    margin: 0;
     background-color: #FFFF;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .area-inicio {
     display: flex;
@@ -38,53 +39,88 @@ form [value="cadastro"] {
     background-color: red;
 }
 
-/* CSS - Laboratórios */
-nav{
-    position: relative;
-    /* border: 1px solid black; */
-    min-height: 100px;
-}
 
-nav img{
-    width: 15em;
-    /* border: 1px solid black; */
-    position: absolute;
-    left: 50%;
-    top: 30%;
-    margin-right: -50%;
-    transform: translate(-50%)
-}
-
-nav ul{
+/* ---- CSS - Laboratórios ---- */
+.container{
     display: flex;
-    align-items: center;
-    list-style-type: none;
-    /* border: 1px solid black; */
+    justify-content: space-between;
+}
+.item{
+    min-width: 33%;
+    text-align: center;
+}
+.item img{
+    position: relative;
+    top: 30%;
+}
+.item .menuIte{
+    width: 5em;
     position: absolute;
-    left: 90%;
-    top: 60%;
-    transform: translate(-60%);
-    
+    top: 8%;
+    right: 6%;
+}
+.item .menuIte:hover{
+    background-color: rgba(187, 184, 184, 0.336);
 }
 
-nav li{
-    margin-right: 2em;
+.item ul{
+    display: none;
+    position: absolute;
+    top: 7.3em;
+    right: 0;
+    width: 15em;
+    list-style-type: none;
+
 }
-nav a{
-    margin-right: 2em;
+.item ul li{
+    padding: 1em;
+    letter-spacing: 2px;
+    background-color: rgba(187, 184, 184, 0.336);
+}
+.item a{
     text-decoration: none;
     color: black;
-    font-weight: bold;
-    font-style: italic;
-    text-shadow: 0 0 0.2em #8F7
 }
 
 .h2_title{
     width: 40%;
     margin: auto;
     text-align: center;
-    margin-top: 50px;
+    margin: 50px auto;
     
     border: 2px solid black;
     border-radius: 20px;
+}
+
+.containerSala{
+    width: 70%;
+    margin: 40px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.containerSala img{
+    width: 60px;
+    padding: 20px;
+    margin: 0 -3em;
+}
+.containerSala div{
+    margin: 0 8em;
+}
+.containerSala div h3{
+    font-weight: lighter;
+}
+
+footer{
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+footer span{
+    font-weight: bold;
 }
