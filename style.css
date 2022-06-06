@@ -1,7 +1,7 @@
 body {
+    margin: 0;
     background-color: #FFFF;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    overflow: hidden;
 }
 .area-inicio {
     display: flex;
@@ -42,4 +42,166 @@ body {
 }
 form [value="cadastro"] {
     background-color: red;
+}
+
+
+/* ---- CSS - Laboratórios ---- */
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    min-width: 33%;
+    text-align: center;
+}
+.item img{
+    position: relative;
+    top: 30%;
+}
+.item .menuIte{
+    width: 5em;
+    position: absolute;
+    top: 8%;
+    right: 6%;
+}
+.item .menuIte:hover{
+    background-color: rgba(187, 184, 184, 0.336);
+}
+
+.item ul{
+    display: none;
+    position: absolute;
+    top: 7.3em;
+    right: 0;
+    width: 15em;
+    list-style-type: none;
+
+}
+.item ul li{
+    padding: 1em;
+    letter-spacing: 2px;
+    background-color: rgba(187, 184, 184, 0.336);
+}
+.item a{
+    text-decoration: none;
+    color: black;
+}
+
+.h2_title{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin: 50px auto;
+    
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.containerSala{
+    width: 70%;
+    margin: 40px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.containerSala img{
+    width: 60px;
+    padding: 20px;
+    margin: 0 -3em;
+}
+.containerSala div{
+    margin: 0 8em;
+}
+.containerSala div h3{
+    font-weight: lighter;
+}
+
+footer{
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+footer span{
+    font-weight: bold;
+}
+
+/* ---- CSS - Agendamentos ---- */
+.slide-container{
+    display: flex;
+    align-items: center;
+}
+.slide-container .btn-icon{
+    background-color: #fff;
+    outline: none;
+    border: none;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.slide-container .btn-icon:hover{
+    color: red;
+}
+.slide{
+    text-align: center;
+    margin: 0 auto;
+    padding: 2em;
+    
+    width: 80%;
+    height: 150px;
+
+    display: flex;
+    overflow: hidden;
+
+    scroll-behavior: smooth;
+}
+.slide::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.slide-item{
+    width: 18%;
+    height: 150px;
+    margin: 0 5vh;
+
+    border: 3px solid black;
+    border-radius: 20px;
+
+    box-shadow: 10px 5px 5px 1px black;
+}
+.slide-item:hover{
+    background-color: red;
+}
+
+.slide-item p{
+    margin: 20px 0 5px 0;
+    padding: 0;
+
+    font-size: 20px;
+}
+.slide-item h1{
+    margin: 0px 0 20px 0;
+    padding: 0;
+
+    font-size: 3.5em;
+}
+
+#horarios{
+    text-align: center;
+    margin-top: 50px;
+    min-height: 500px;
+}
+#horarios h2{
+    font-size: 2em;
+}
+#horarios #mural{
+    display: flex;
+       
+}
+#horarios #mural div{
+    width: 100%;
+
+    border: 1px solid black;
 }
