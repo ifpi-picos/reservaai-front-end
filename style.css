@@ -44,6 +44,7 @@ form [value="cadastro"] {
     display: flex;
     justify-content: space-between;
 }
+
 .item{
     min-width: 33%;
     text-align: center;
@@ -59,9 +60,8 @@ form [value="cadastro"] {
     right: 6%;
 }
 .item .menuIte:hover{
-    background-color: rgba(187, 184, 184, 0.336);
+    background-color: rgba(187, 184, 184, 0.849);
 }
-
 .item ul{
     display: none;
     position: absolute;
@@ -74,7 +74,7 @@ form [value="cadastro"] {
 .item ul li{
     padding: 1em;
     letter-spacing: 2px;
-    background-color: rgba(187, 184, 184, 0.336);
+    background-color: rgba(187, 184, 184, 0.849);
 }
 .item a{
     text-decoration: none;
@@ -101,7 +101,9 @@ form [value="cadastro"] {
     border: 2px solid black;
     border-radius: 20px;
 }
-
+.containerSala:hover {
+    background-color: rgba(187, 184, 184, 0.849);
+}
 .containerSala img{
     width: 60px;
     padding: 20px;
@@ -114,13 +116,13 @@ form [value="cadastro"] {
     font-weight: lighter;
 }
 
-footer{
+#footer-lab{
     min-height: 100px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
-footer span{
+#footer-lab span{
     font-weight: bold;
 }
 
@@ -135,9 +137,6 @@ footer span{
     border: none;
     padding: 0px 10px;
     cursor: pointer;
-}
-.slide-container .btn-icon:hover{
-    color: red;
 }
 .slide{
     text-align: center;
@@ -159,43 +158,99 @@ footer span{
     width: 18%;
     height: 150px;
     margin: 0 5vh;
+    background-color: #fff;
 
     border: 3px solid black;
     border-radius: 20px;
 
     box-shadow: 10px 5px 5px 1px black;
+
+    cursor: pointer;
 }
 .slide-item:hover{
-    background-color: red;
+    background-color: rgba(187, 184, 184, 0.849);
 }
-
 .slide-item p{
     margin: 20px 0 5px 0;
     padding: 0;
 
     font-size: 20px;
+
+    pointer-events: none;
 }
 .slide-item h1{
     margin: 0px 0 20px 0;
     padding: 0;
 
     font-size: 3.5em;
+
+    pointer-events: none;
 }
 
 #horarios{
     text-align: center;
     margin-top: 50px;
-    min-height: 500px;
 }
 #horarios h2{
     font-size: 2em;
+    margin-bottom: 0;
 }
 #horarios #mural{
-    display: flex;
-       
+    width: 60%;
+    margin: 0 auto;
+    max-height: 70vh;
+    overflow: scroll;    
 }
-#horarios #mural div{
+#horarios #mural::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.container-itemMural{
     width: 100%;
+    margin: 5vh auto;
+    padding: 10px 0;
 
-    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 1.5em;
+}
+.container-itemMural div{
+    width: 40%;
+    padding: 1.2em 0.8em;
+    font-weight: lighter;
+    border: 3px solid black;
+    border-radius: 30px;
+
+    cursor: pointer;
+}
+.container-itemMural div:hover{
+    background-color: rgba(187, 184, 184, 0.849);
+}
+.container-itemMural .muralItem p{
+    pointer-events: none;
+}
+
+#footer-agend{
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+    background-color: #fff;
+}
+#footer-agend img{
+    width: 5vh;
+    margin: 0;
+    padding: 0;
+}
+#footer-agend button{
+    padding: 1vh 6vw;
+    background-color: red;
+    color: #fff;
+    font-size: 1.4em;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+#footer-agend span{
+    font-weight: bold;
 }
