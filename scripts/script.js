@@ -14,9 +14,54 @@ function esconderMenu(){
 }
 
 /* Script - Agendamentos */
+
+/* Slide horizontal */
+function scrollL(){
+    let left = document.querySelector(".slide")
+    left.scrollBy(-350, 0)
+}
+function scrollR(){
+    let right = document.querySelector(".slide")
+    right.scrollBy(350, 0)
+}
+
+/* Função para limitar o número de itens selecionados */
+function maxRed(mult){
+    let cont = 0
+
+    for (let i = 0; i < mult.length; i++){
+
+        if(mult[i].id == "red"){
+            cont += 1
+        }
+    }
+
+    if (cont == 3){
+
+        for (let i = 0; i < mult.length; i++){
+
+            if(mult[i].id != "red"){
+
+                mult[i].style.pointerEvents = "none"
+            }
+        }
+        console.log("Não é permitido marcar mais que três itens!")
+
+    }else{
+        for (let i = 0; i < mult.length; i++){
+
+            if(mult[i].id != "red"){
+
+                mult[i].style.pointerEvents = "all"
+            }
+        }
+    }
+}
+
+/* Selecionando itens do slide */
 let slideItems = document.querySelectorAll("div.slide-item")
 
-for (let i =0; i< slideItems.length; i++){
+for (let i = 0; i< slideItems.length; i++){
 
     slideItems[i].addEventListener("click", (e) => {
 
@@ -29,26 +74,19 @@ for (let i =0; i< slideItems.length; i++){
             slideItems[i].style.backgroundColor = "#fff"
             slideItems[i].style.color = "black"
         }
+
+        maxRed(slideItems)
         
     })
 }
-
-function scrollL(){
-    let left = document.querySelector(".slide")
-    left.scrollBy(-350, 0)
-}
-function scrollR(){
-    let right = document.querySelector(".slide")
-    right.scrollBy(350, 0)
-}
-
+/* Selecionando itens do mural*/
 let muralItems = document.querySelectorAll("div.muralItem")
 
-for(let i = 0; i < muralItems.length; i++){
+for (let i = 0; i < muralItems.length; i++){
     
     muralItems[i].addEventListener("click", (e) => {
 
-        if(muralItems[i].id != "red"){
+        if(e.target.id != "red"){
             muralItems[i].id = "red"
             muralItems[i].style.backgroundColor = "red"
             muralItems[i].style.color = "rgba(243, 243, 243, 1)"
@@ -57,5 +95,7 @@ for(let i = 0; i < muralItems.length; i++){
             muralItems[i].style.backgroundColor = "#fff"
             muralItems[i].style.color = "black"
         }
+
+        maxRed(muralItems)
     })
 }
