@@ -1,24 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../imgs/rAÍ_Sem_Fundo_Maior.ico">
-    <link rel="stylesheet" href="style.css">
-    <title>ReservaAÍ - cadastro</title>
+    <link rel="stylesheet" href="../pages/cadastro.css">
+    <title>ReservaAÍ - Cadastro</title>
 </head>
 <body>
     <section class="area-cadastro">
         <div class="cadastro">
             <div>
-                <img src="../imgs/ReservaAÍ_sem_fundo.png" alt="logo ReservaAÍ">
+                <img src="../imgs/ReservaAÍ_sem_fundo_cortada.png" alt="logo ReservaAÍ">
             </div>
-            <form method="post">
-                <input type="text" name="nome" placeholder="Digite sua Matrícula" autofocus>
-                <input type="text" name="senha" placeholder="Digite sua senha" autofocus>
-                <input type="submit" value="entrar"> 
+            <h1>CADASTRO</h1>
+            <form method="POST">
+                <h2>Nome</h2>
+                <input type="text" name="Nome" placeholder="Digite seu Nome" autofocus>
+                <h2>Email</h2>
+                <input type="text" name="Email" placeholder="Digite seu Email">
+                <h2>Matrícula</h2>
+                <input type="text" name="Matrícula" placeholder="Digite sua Matrícula">
+                <h2>Senha</h2>
+                <input type="password" name="Senha" placeholder="Digite uma Senha">
+                <input type="submit" value="Finalizar"> 
             </form>
+            <p>Já possui uma conta? <a href="login.html">Entrar</a>.</p>
         </div>
     </section>
 </body>

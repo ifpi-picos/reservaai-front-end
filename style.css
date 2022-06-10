@@ -37,13 +37,11 @@ body {
     margin-right: auto;
     width: 350px;
 }
-.cadastro {
-    width: 100%;
-}
 form [value="cadastro"] {
     background-color: red;
 }
 
+/* ---- CSS - Cadastro ---- */
 
 /* ---- CSS - Laboratórios ---- */
 .container{
