@@ -59,11 +59,11 @@ form [value="cadastro"] {
     padding-left: 10px;
     height: 30px;
 }
-input::placeholder {
+.cadastro input::placeholder {
     color: #000;
     font-size: 14px;
 }
-form [type="submit"] {
+.cadastro form [type="submit"] {
     display: block;
     color: #FFFF;
     background-color: #FF1616;
@@ -77,20 +77,20 @@ form [type="submit"] {
     border: none;
     height: 40px;
 }
-h1 {
+.cadastro h1 {
     display: flex;
     justify-content: center;
     margin-bottom: 5px;
 }
-h2 {
+.cadastro h2 {
     margin-top: 7px;
     margin-bottom: 1px;
 }
-p {
+.cadastro p {
     display: flex;
     justify-content: center;
 }
-a {
+.cadastro a {
     color: green;
     text-decoration: none;
     margin-left: 3px;
