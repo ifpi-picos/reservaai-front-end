@@ -299,31 +299,4 @@ background-color: white;
     font-weight: bold;
 }
 
-/* --- CSS - Cancelamentos --- */
-.container-cancel{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin: 0 auto;
-    padding: 3vh 0;
-    
-    width: 70%;
-
-    text-align: center;
-    
-
-    border: 3px solid black;
-    border-radius: 20px;
-}
-.cancel-content{
-    font-size: 2rem;
-
-    padding: 0 10vw;
-    border-right: 1px solid black;
-}
-.container-cancel img{
-    margin: 0 0;
-    padding-left: 6vw;
-    padding-right: 0;
-}
+/* --- CSS - Minhas Reservas --- */
