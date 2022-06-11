@@ -124,6 +124,7 @@ for (let i = 0; i < btnPlus.length; i++){
             alert("A descrição precisa ter pelo menos 5 caracteres!")
         }
 
+        element.children[3].children[1].value = ''
     })
 }
 

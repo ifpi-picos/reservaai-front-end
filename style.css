@@ -97,44 +97,87 @@ form [value="cadastro"] {
 }
 
 /* ---- CSS - Login ---- */
+#imgsemfundo{
+    /* border: 1px solid black; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4em;
+}
+#containerLogin{
+    /* border: 1px solid black; */
+
+    width: 25%;
+    margin: 0 auto;
+}
+.contBtns{
+    text-align: center;
+}
+.contBtns button:hover{
+    cursor: pointer;
+}
+#login{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+#login input{
+    width: 90%;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+#login h1{
+    width: 90%;
+    margin: 2vh auto 4vh auto;
+
+    display: flex;
+    
+}
+#login h4{
+    width: 90%;
+    margin: 2vh auto 2vh auto;
+
+    display: flex;
+}
 #buttonE{
     background-color: #54d83a;
     border: none;
     padding: 15px;
    
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     color: white;
     font-size: 15px;
-}
-#login input{
 
-        padding: 10px;
-        border-radius: 10px;
-        outline: none;
-        font-size: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-#login div{
-background-color: white;
-position: absolute;
-top: 25%;
-left: 40%;
-
-}
-#cadastre-se {
-color: red;
-background-color: white;
-border: none;
-
-}
-#imgsemfundo{
-position: absolute;
-top: -25%;
-left: 30%;
+#buttonE a{
+    text-decoration: none;
+    color: white;
 }
 #Esqueceuasenha{
-border: none;
-background-color: white;
+    border: none;
+    background-color: #fff;
+    
+}
+#Esqueceuasenha a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#cadastre-se{
+    background-color: white;
+    border: none;
+}
+#cadastre-se a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.mgT{
+    margin-top: 4vh;
 }
 
 /* ---- CSS - Laboratórios ---- */
