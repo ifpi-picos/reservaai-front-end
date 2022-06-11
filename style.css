@@ -358,3 +358,57 @@ background-color: white;
 }
 
 /* --- CSS - Minhas Reservas --- */
+.reservas{
+    display: flex;
+    justify-content: space-around;
+}
+.reservaItem{
+    width: 30%;
+    height: fit-content;
+    margin-bottom: 10vh;
+
+    font-size: 1.5rem;
+
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: -5px 5px 5px 3px black;
+}
+.reservaItem span{
+    margin: 0 5vw;
+}
+.reservaItem .received{
+    padding: 0 1em;
+
+    word-wrap: break-word;
+}
+.reservas .teste{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 0.8em;
+}
+.reservas div hr{
+    width: 90%;
+}
+.reservas .teste input{
+    padding: 1rem;
+
+    border-radius: 5px;
+}
+.reservas .teste img{
+    width: 2em;
+
+    cursor: pointer;
+}
+
+#footer-reserva{
+    width: 100%;
+    min-height: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#footer-reserva span{
+    font-weight: bold;
+}

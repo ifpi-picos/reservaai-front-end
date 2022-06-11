@@ -1,4 +1,4 @@
-/* Script - Laboratórios */
+/* ---- Script - Laboratórios ---- */
 let menuUl = document.getElementsByClassName("menuUl")[0]
 
 function mostrarMenu(){
@@ -13,7 +13,7 @@ function esconderMenu(){
     
 }
 
-/* Script - Agendamentos */
+/* ---- Script - Agendamentos ---- */
 
 /* Slide horizontal */
 function scrollL(){
@@ -97,5 +97,46 @@ for (let i = 0; i < muralItems.length; i++){
         }
 
         maxRed(muralItems)
+    })
+}
+
+/* ---- Script - Minhas Reservas ---- */
+
+/* Adicionando descrição */
+let btnPlus = document.querySelectorAll("img.btnPlus")
+
+for (let i = 0; i < btnPlus.length; i++){
+
+    btnPlus[i].addEventListener("click", (e) => {
+
+        let element = e.target.parentElement.parentElement
+
+        let textSend = element.children[1]
+
+        let contentInput = element.children[3].children[1].value
+
+        if (contentInput.length > 4 & contentInput != "     "){
+
+            textSend.innerText += contentInput
+            textSend.innerHTML += "<br>"
+        }else{
+
+            alert("A descrição precisa ter pelo menos 5 caracteres!")
+        }
+
+    })
+}
+
+/* Excluindo reserva */
+let btnTrash = document.querySelectorAll("img.btnTrash")
+
+for (let i = 0; i < btnTrash.length; i++){
+
+    btnTrash[i].addEventListener("click", (e) => {
+        console.log(e.target.parentElement.parentElement)
+
+        let divTrash = e.target.parentElement.parentElement
+        
+        divTrash.remove()
     })
 }
