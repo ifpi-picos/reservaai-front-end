@@ -121,6 +121,7 @@ form [value="cadastro"] {
     padding: 10px 0;
     border-radius: 10px;
     font-size: 15px;
+    text-indent: 10px;
 
 }
 #login h1{
@@ -174,6 +175,36 @@ form [value="cadastro"] {
 .mgT{
     margin-top: 4vh;
 }
+
+@media (min-width: 320px), (min-width: 480px){
+    #containerLogin{
+        width: 100%;
+    }
+}
+
+@media (min-width: 600px){
+    #containerLogin{
+        width: 80%;
+    }
+}
+@media (min-width: 801px){
+    #containerLogin{
+        width: 70%;
+    }
+}
+@media (max-width: 1025px){
+    #containerLogin{
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 1281px){
+    #containerLogin{
+        width: 25%;
+        margin: 0 auto;
+    }
+}
+
 
 /* ---- CSS - Laboratórios ---- */
 .container{
