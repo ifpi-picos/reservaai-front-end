@@ -7,16 +7,27 @@
     <link rel="icon" type="image/x-icon" href="../imgs/rAÍ_Sem_Fundo_Maior.ico">
     <link rel="stylesheet" href="style.css">
     <title>ReservaAÍ - Validação</title>
-</head>
 <body>
     <div class="area-validacao">
-        <div class="validacao">
-        <img src="../imgs/ReservaAÍ_sem_fundo.png" alt="Logo ReservaAÍ">
+        <div>
+            <img src="imgs/ReservaAÍ_sem_fundo_cortada.png" alt="Logo ReservaAÍ">
         </div>
         <h1>VALIDAÇÃO</h1>
-        <p>Digite o código que foi enviado diretamente para o seu email na hora do cadastro:</p>
-        <p>Não recebeu nenhum email?</p>
-        <p><a href="###">novamente</a></p>
+        <h2>Digite o código que foi enviado diretamente para o seu email na hora do cadastro:</h2>
+        <form method="POST">
+            <div class="pin-cont-codigo">
+                <input type="tel" maxlength="1" class="pin-validacao" value="" aria-label="Entrada 1.">
+                <input type="tel" maxlength="1" class="pin-validacao" value="" aria-label="Entrada 2.">
+                <input type="tel" maxlength="1" class="pin-validacao" value="" aria-label="Entrada 3.">
+                <input type="tel" maxlength="1" class="pin-validacao" value="" aria-label="Entrada 4.">
+            </div>
+            <div class="confirm-codigo">
+                <input type="submit" value="Confirmar">
+                <input type="submit" value="Cancelar">
+            </div>
+        </form>
+        <span>Não recebeu nenhum email?</span>
+        <p><a href="###" rel="Tentar Novamente">Tente novamente</a></p>
     </div>
 </body>
 </html>
