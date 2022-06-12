@@ -36,7 +36,7 @@ function maxRed(mult){
         }
     }
 
-    if (cont == 3){
+    if (cont == 1){
 
         for (let i = 0; i < mult.length; i++){
 
@@ -112,6 +112,7 @@ for (let i = 0; i < btnPlus.length; i++){
         let element = e.target.parentElement.parentElement
 
         let textSend = element.children[1]
+        textSend.style.fontSize = "1rem"
 
         let contentInput = element.children[3].children[1].value
 

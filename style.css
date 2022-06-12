@@ -98,16 +98,12 @@ form [value="cadastro"] {
 
 /* ---- CSS - Login ---- */
 #imgsemfundo{
-    /* border: 1px solid black; */
-
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1.4em;
 }
 #containerLogin{
-    /* border: 1px solid black; */
-
     width: 25%;
     margin: 0 auto;
 }
@@ -118,7 +114,6 @@ form [value="cadastro"] {
     cursor: pointer;
 }
 #login{
-    /* border: 1px solid black; */
     text-align: center;
 }
 #login input{
@@ -416,6 +411,11 @@ form [value="cadastro"] {
     border-radius: 15px;
     box-shadow: -5px 5px 5px 3px black;
 }
+.reservaItem:hover{
+
+    background-color: rgba(228, 228, 228, 0.664);
+    transition: 0.3s;
+}
 .reservaItem span{
     margin: 0 5vw;
 }
@@ -424,7 +424,7 @@ form [value="cadastro"] {
 
     word-wrap: break-word;
 }
-.reservas .teste{
+.reservas .btns-res{
     display: flex;
     justify-content: space-around;
 
@@ -433,14 +433,12 @@ form [value="cadastro"] {
 .reservas div hr{
     width: 90%;
 }
-.reservas .teste input{
+.reservas .btns-res input{
     padding: 1rem;
 
     border-radius: 5px;
 }
-.reservas .teste img{
-    width: 2em;
-
+.reservas .btns-res img{
     cursor: pointer;
 }
 
