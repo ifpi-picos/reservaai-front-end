@@ -40,6 +40,7 @@ body {
 form [value="cadastro"] {
     background-color: red;
 }
+
 /* ---- CSS - Cadastro ---- */
 .area-cadastro {
     display: flex;
@@ -95,6 +96,7 @@ form [value="cadastro"] {
     text-decoration: none;
     margin-left: 3px;
 }
+
 /* ---- CSS - Validação ----*/
 .area-validacao {
     display: flex;
@@ -307,9 +309,6 @@ form [value="cadastro"] {
 .containerSala div{
     margin: 0 8em;
 }
-.containerSala div h3{
-    font-weight: lighter;
-}
 
 #footer-lab{
     min-height: 100px;
@@ -319,362 +318,6 @@ form [value="cadastro"] {
 }
 #footer-lab span{
     font-weight: bold;
-}
-
-@media (min-width: 320px){
-    /* ---- CSS - Login ---- */
-    #containerLogin{
-        width: 80%;
-    }
-
-    /* ---- CSS - Laboratório ---- */
-    .item img{
-        width: 8em;
-        top: 1.2em;
-        right: 0;
-    }
-    .item .menuIte{
-        width: 2em;
-        top: 1.8em;
-    }
-    .item ul{
-        top: 2.8em;
-        width: 4.5em;
-    }
-    .item ul li{
-        padding: 0.7em 1em;
-        letter-spacing: 2px;
-        font-size: .7rem;
-        background-color: rgba(187, 184, 184, 0.849);
-    }
-
-    .h2_title{
-        width: 10em;
-        margin: 30px auto;
-
-        font-size: .6rem;
-        
-        border: 2px solid black;
-        border-radius: 15px;
-    }
-
-    .containerSala a{
-        width: 80%;
-    }
-    .containerSala img{
-        width: 3em;
-        padding: 1.5em 1em;
-        margin: 0;
-    }
-    .containerSala div{
-        margin: 0;
-        padding: .1em .5em;
-        font-size: .8rem;
-    }
-    .containerSala div h3{
-        font-weight: bold;
-    }
-
-
-
-
-}
-@media(min-width: 480px){
-    /* ---- CSS - Login ---- */
-    #containerLogin{
-        width: 70%;
-    }
-
-    /* ---- CSS - Laboratório ---- */
-    .item img{
-        width: 10em;
-        top: 1.2em;
-        right: 0;
-    }
-    .item .menuIte{
-        width: 2em;
-        top: 2.5em;
-        right: 1.5em;
-    }
-    .item ul{
-        top: 3.5em;
-        width: 5em;
-    }
-    .item ul li{
-        padding: 0.7em 1em;
-        letter-spacing: 2px;
-        font-size: .7rem;
-        background-color: rgba(187, 184, 184, 0.849);
-    }
-
-    .h2_title{
-        width: 10em;
-        margin: 30px auto;
-
-        font-size: .6rem;
-        
-        border: 2px solid black;
-        border-radius: 15px;
-    }
-
-    .containerSala a{
-        width: 80%;
-    }
-    .containerSala img{
-        width: 3em;
-        padding: 1.5em 1em;
-        margin: 0;
-    }
-    .containerSala div{
-        margin: 0;
-        padding: .1em .5em;
-        font-size: .8rem;
-    }
-    .containerSala div h3{
-        font-weight: bold;
-    }
-
-
-
-
-}
-
-@media (min-width: 600px){
-    /* ---- CSS - Login ---- */
-    #containerLogin{
-        width: 60%;
-    }
-
-    /* ---- CSS - Laboratório ---- */
-    .item img{
-        width: 10em;
-        top: 1.2em;
-        right: 0;
-    }
-    .item .menuIte{
-        width: 2em;
-        top: 2.5em;
-        right: 1.5em;
-    }
-    .item ul{
-        top: 3.5em;
-        width: 5em;
-    }
-    .item ul li{
-        padding: 0.7em 1em;
-        letter-spacing: 2px;
-        font-size: .75rem;
-        background-color: rgba(187, 184, 184, 0.849);
-    }
-
-    .h2_title{
-        width: 15em;
-        margin: 30px auto;
-
-        font-size: .7rem;
-        
-        border: 2px solid black;
-        border-radius: 15px;
-    }
-
-    .containerSala a{
-        width: 80%;
-    }
-    .containerSala img{
-        width: 3em;
-        padding: 1.5em 1em;
-    }
-    .containerSala div{
-        margin: 0;
-        padding: .1em 4em;
-        font-size: .8rem;
-    }
-    .containerSala div h3{
-        font-weight: bold;
-    }
-
-
-
-
-
-
-
-}
-@media (min-width: 801px){
-    /* ---- CSS - Login ---- */
-    #containerLogin{
-        width: 45%;
-    }
-
-    /* ---- CSS - Laboratório ---- */
-    .item img{
-        width: 15em;
-        top: 1.2em;
-        right: 0;
-    }
-    .item .menuIte{
-        width: 3.5em;
-        top: 2.8em;
-        right: 2em;
-    }
-    .item ul{
-        top: 5.4em;
-        width: 8em;
-    }
-    .item ul li{
-        padding: 0.7em 1em;
-        letter-spacing: 2px;
-        font-size: .85rem;
-        background-color: rgba(187, 184, 184, 0.849);
-    }
-
-    .h2_title{
-        width: 20em;
-        margin: 30px auto;
-
-        font-size: .8rem;
-        
-        border: 2px solid black;
-        border-radius: 15px;
-    }
-
-    .containerSala a{
-        width: 70%;
-    }
-    .containerSala img{
-        width: 4em;
-        padding: 1.5em 1em;
-    }
-    .containerSala div{
-        margin: 0;
-        padding: 0.5em 5em;
-        font-size: 0.9rem;
-    }
-    .containerSala div h3{
-        font-weight: bold;
-    }
-
-
-
-
-
-}
-@media (min-width: 1025px){
-    /* ---- CSS - Login ---- */
-    #containerLogin{
-        width: 35%;
-    }
-
-    /* ---- CSS - Laboratório ---- */
-    .item img{
-        width: 20em;
-        top: 2em;
-        right: 0;
-    }
-    .item .menuIte{
-        width: 5em;
-        top: 3.2em;
-        right: 3em;
-    }
-    .item ul{
-        top: 7.2em;
-        width: 12em;
-    }
-    .item ul li{
-        padding: 1em 1em;
-        letter-spacing: 2px;
-        font-size: 1rem;
-        background-color: rgba(187, 184, 184, 0.849);
-    }
-
-    .h2_title{
-        width: 25em;
-        margin: 50px auto;
-
-        font-size: .9rem;
-        
-        border: 2px solid black;
-        border-radius: 15px;
-    }
-
-    .containerSala a{
-        width: 65%;
-    }
-    .containerSala img{
-        width: 5em;
-        padding: 1em 0em;
-        margin: 0 -1em;
-    }
-    .containerSala div{
-        margin: 0;
-        padding: 0.5em 8em;
-        font-size: 0.9rem;
-    }
-    .containerSala div h3{
-        font-weight: bold;
-    }
-
-
-
-}
-@media (min-width: 1281px){
-    /* ---- CSS - Login ---- */
-    #containerLogin{
-        width: 25%;
-    }
-
-    /* ---- CSS - Laboratório ---- */
-    .item img{
-        width: 20em;
-        top: 2em;
-        right: 0;
-    }
-    .item .menuIte{
-        width: 5em;
-        top: 3.2em;
-        right: 5em;
-    }
-    .item ul{
-        top: 7.2em;
-        width: 15em;
-    
-    }
-    .item ul li{
-        padding: 1em;
-        letter-spacing: 2px;
-        background-color: rgba(187, 184, 184, 0.849);
-    }
-    
-    .h2_title{
-        width: 40%;
-        margin: auto;
-        text-align: center;
-        margin: 50px auto;
-        
-        border: 2px solid black;
-        border-radius: 20px;
-    }
-    
-    .containerSala a{
-        width: 70%;
-    }
-    .containerSala img{
-        width: 5em;
-        padding: 1em 0em;
-        margin: 0 -2em;
-    }
-    .containerSala div{
-        margin: 0 5em;
-        font-size: 1rem; 
-        padding: 0.5em 6em;
-    }
-    .containerSala div h3{
-        font-weight: bold;
-    }
-    
-
-
-    
 }
 
 /* ---- CSS - Agendamentos ---- */
@@ -768,7 +411,6 @@ form [value="cadastro"] {
 .container-itemMural div{
     width: 40%;
     padding: 1.2em 0.8em;
-    font-weight: lighter;
     border: 3px solid black;
     border-radius: 30px;
 
@@ -863,4 +505,843 @@ form [value="cadastro"] {
 }
 #footer-reserva span{
     font-weight: bold;
+}
+
+@media (max-width: 319px){
+    /* ---- Query - Login ---- */
+    #containerLogin{
+        width: 80%;
+    }
+
+    /* ---- Query - Laboratório ---- */
+    .item img{
+        width: 8em;
+        top: 1.2em;
+        right: 0;
+    }
+    .item .menuIte{
+        width: 2em;
+        top: 1.8em;
+    }
+    .item ul{
+        top: 2.8em;
+        width: 4.5em;
+    }
+    .item ul li{
+        padding: 0.7em 1em;
+        letter-spacing: 2px;
+        font-size: .7rem;
+        background-color: rgba(187, 184, 184, 0.849);
+    }
+
+    .h2_title{
+        width: 12em;
+        margin: 30px auto;
+
+        font-size: .6rem;
+        
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+
+    .containerSala a{
+        width: 80%;
+    }
+    .containerSala img{
+        width: 3em;
+        padding: 1.5em 1em;
+        margin: 0;
+    }
+    .containerSala div{
+        margin: 0;
+        padding: .1em .5em;
+        font-size: .8rem;
+    }
+    .containerSala div h3{
+        font-weight: bold;
+    }
+
+    /* ---- Query - Agendamentos ---- */
+    .slide-container .btn-icon{
+        padding: 0px 10px;
+    }
+    .slide-container .btn-icon img{
+        width: 4em;
+    }
+    .slide{
+        padding: 0.5em;
+        height: 7.5em;
+    }
+    .slide-item{
+        width: 100%;
+        height: 7em;
+        margin: 0 4vw;
+    }
+    .slide-item p{
+        font-size: 1rem;
+    }
+    .slide-item h1{
+        font-size: 2em;
+    }
+
+    #horarios{
+        text-align: center;
+        margin-top: 3em;
+    }
+    #horarios h2{
+        font-size: 2em;
+        padding: 0 0 .5em 0;
+        margin-bottom: 0;
+    }
+    #horarios #mural{
+        width: 80%;
+        margin: 0 auto;
+        max-height: 70vh;
+        overflow: scroll;    
+    }
+    .container-itemMural{
+        width: 100%;
+        margin: 3vh auto;
+        padding: 1vh 0;
+    
+        font-size: 1rem;
+        font-weight: none;
+    }
+    .container-itemMural div{
+        width: 30%;
+        padding: 0.4em 1em;
+    }
+    .container-itemMural .muralItem p{
+        pointer-events: none;
+    }
+
+    #footer-agend button{
+        padding: 0.5vh 5vw;
+    }
+
+    /* ---- Query - Minhas Reservas ---- */
+    .reservas{
+        display: block;
+    }
+    .reservaItem{
+        width: 80%;
+        margin: 0 auto;
+        height: fit-content;
+        margin-bottom: 8vh;
+    
+        font-size: 1rem;
+    }
+    .reservaItem span{
+        margin: 0 12vw;
+    }
+    .reservas .btns-res input{
+        width: 7em;
+        margin: 0 0.5em;
+    
+        border-radius: 5px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 479px){
+    /* ---- Query - Login ---- */
+    #containerLogin{
+        width: 80%;
+    }
+
+    /* ---- Query - Laboratório ---- */
+    .item img{
+        width: 8em;
+        top: 1.2em;
+        right: 0;
+    }
+    .item .menuIte{
+        width: 2em;
+        top: 1.8em;
+    }
+    .item ul{
+        top: 2.8em;
+        width: 4.5em;
+    }
+    .item ul li{
+        padding: 0.7em 1em;
+        letter-spacing: 2px;
+        font-size: .7rem;
+        background-color: rgba(187, 184, 184, 0.849);
+    }
+
+    .h2_title{
+        width: 15em;
+        margin: 40px auto;
+
+        font-size: .6rem;
+        
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+
+    .containerSala a{
+        width: 80%;
+    }
+    .containerSala img{
+        width: 3em;
+        padding: 1.5em 1em;
+        margin: 0;
+    }
+    .containerSala div{
+        margin: 0;
+        padding: .1em .5em;
+        font-size: .8rem;
+    }
+    .containerSala div h3{
+        font-weight: bold;
+    }
+
+    /* ---- Query - Agendamentos ---- */
+    .slide-container .btn-icon{
+        padding: 0;
+    }
+    .slide-container .btn-icon img{
+        width: 4em;
+    }
+    .slide{
+        padding: 0.5em;
+        height: 7.5em;
+    }
+    .slide-item{
+        width: 100%;
+        height: 7em;
+        margin: 0 4vw;
+    }
+    .slide-item p{
+        font-size: 1rem;
+    }
+    .slide-item h1{
+        font-size: 2em;
+    }
+
+    #horarios{
+        text-align: center;
+        margin-top: 3em;
+    }
+    #horarios h2{
+        font-size: 2em;
+        padding: 0 0 .5em 0;
+        margin-bottom: 0;
+    }
+    #horarios #mural{
+        width: 80%;
+        margin: 0 auto;
+        max-height: 70vh;
+        overflow: scroll;    
+    }
+    .container-itemMural{
+        width: 100%;
+        margin: 3vh auto;
+        padding: 1vh 0;
+    
+        font-size: 1rem;
+        font-weight: none;
+    }
+    .container-itemMural div{
+        width: 30%;
+        padding: 0.4em 1em;
+    }
+    .container-itemMural .muralItem p{
+        pointer-events: none;
+    }
+
+    #footer-agend button{
+        padding: 0.5vh 5vw;
+    }
+
+    /* ---- Query - Minhas Reservas ---- */
+    .reservas{
+        display: block;
+    }
+    .reservaItem{
+        width: 80%;
+        margin: 0 auto;
+        height: fit-content;
+        margin-bottom: 8vh;
+    
+        font-size: 1rem;
+    }
+    .reservaItem span{
+        margin: 0 12vw;
+    }
+    .reservas .btns-res input{
+        width: 7em;
+        margin: 0 0.5em;
+    
+        border-radius: 5px;
+    }
+    
+
+
+}
+
+@media(min-width: 480px) and (max-width: 599px){
+    /* ---- Query - Login ---- */
+    #containerLogin{
+        width: 70%;
+    }
+
+    /* ---- Query - Laboratório ---- */
+    .item img{
+        width: 10em;
+        top: 1.2em;
+        right: 0;
+    }
+    .item .menuIte{
+        width: 2em;
+        top: 2.5em;
+        right: 1.5em;
+    }
+    .item ul{
+        top: 3.5em;
+        width: 5em;
+    }
+    .item ul li{
+        padding: 0.7em 1em;
+        letter-spacing: 2px;
+        font-size: .7rem;
+        background-color: rgba(187, 184, 184, 0.849);
+    }
+
+    .h2_title{
+        width: 12em;
+        margin: 30px auto;
+
+        font-size: .6rem;
+        
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+
+    .containerSala a{
+        width: 80%;
+    }
+    .containerSala img{
+        width: 3em;
+        padding: 1.5em 1em;
+        margin: 0;
+    }
+    .containerSala div{
+        margin: 0;
+        padding: .1em .5em;
+        font-size: .8rem;
+    }
+    .containerSala div h3{
+        font-weight: bold;
+    }
+
+    /* ---- Query - Agendamentos ---- */
+    .slide-container .btn-icon{
+        padding: 0;
+    }
+    .slide-container .btn-icon img{
+        width: 4em;
+    }
+    .slide{
+        padding: 0.5em;
+        height: 7.5em;
+    }
+    .slide-item{
+        width: 100%;
+        padding: 0 2vw;
+        height: 7em;
+        margin: 0 4vw;
+    }
+    .slide-item p{
+        font-size: 1rem;
+    }
+    .slide-item h1{
+        font-size: 2em;
+    }
+
+    #horarios{
+        text-align: center;
+        margin-top: 3em;
+    }
+    #horarios h2{
+        font-size: 2em;
+        padding: 0 0 .5em 0;
+        margin-bottom: 0;
+    }
+    #horarios #mural{
+        width: 80%;
+        margin: 0 auto;
+        max-height: 70vh;
+        overflow: scroll;    
+    }
+    .container-itemMural{
+        width: 100%;
+        margin: 3vh auto;
+        padding: 1vh 0;
+    
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .container-itemMural div{
+        width: 30%;
+        padding: 0.4em 1em;
+    }
+    .container-itemMural .muralItem p{
+        pointer-events: none;
+    }
+
+    #footer-agend button{
+        padding: 0.5vh 5vw;
+    }
+
+    /* ---- Query - Minhas Reservas ---- */
+    .reservas{
+        display: block;
+    }
+    .reservaItem{
+        width: 60%;
+        margin: 0 auto;
+        height: fit-content;
+        margin-bottom: 8vh;
+    
+        font-size: 1rem;
+    }
+    .reservaItem span{
+        margin: 0 12vw;
+    }
+    .reservas .btns-res input{
+        width: 7em;
+        margin: 0 0.5em;
+    
+        border-radius: 5px;
+    }
+
+
+
+
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+    /* ---- Query - Login ---- */
+    #containerLogin{
+        width: 60%;
+    }
+
+    /* ---- Query - Laboratório ---- */
+    .item img{
+        width: 10em;
+        top: 1.2em;
+        right: 0;
+    }
+    .item .menuIte{
+        width: 2em;
+        top: 2.5em;
+        right: 1.5em;
+    }
+    .item ul{
+        top: 3.5em;
+        width: 5em;
+    }
+    .item ul li{
+        padding: 0.7em 1em;
+        letter-spacing: 2px;
+        font-size: .75rem;
+        background-color: rgba(187, 184, 184, 0.849);
+    }
+
+    .h2_title{
+        width: 15em;
+        margin: 30px auto;
+
+        font-size: .7rem;
+        
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+
+    .containerSala a{
+        width: 80%;
+    }
+    .containerSala img{
+        width: 3em;
+        padding: 1.5em 1em;
+    }
+    .containerSala div{
+        margin: 0;
+        padding: .1em 4em;
+        font-size: .8rem;
+    }
+    .containerSala div h3{
+        font-weight: bold;
+    }
+
+    /* ---- Query - Agendamentos ---- */
+    .slide-container .btn-icon{
+        padding: 0;
+    }
+    .slide-container .btn-icon img{
+        width: 4em;
+    }
+    .slide{
+        padding: 0.5em;
+        height: 7.5em;
+    }
+    .slide-item{
+        width: 100%;
+        padding: 0 2vw;
+        height: 7em;
+        margin: 0 3vw;
+    }
+    .slide-item p{
+        font-size: 1rem;
+    }
+    .slide-item h1{
+        font-size: 2em;
+    }
+
+    #horarios{
+        text-align: center;
+        margin-top: 3em;
+    }
+    #horarios h2{
+        font-size: 2em;
+        padding: 0 0 .5em 0;
+        margin-bottom: 0;
+    }
+    #horarios #mural{
+        width: 70%;
+        margin: 0 auto;
+        max-height: 70vh;
+        overflow: scroll;
+    }
+    .container-itemMural{
+        width: 100%;
+        margin: 3vh auto;
+        padding: 1vh 0;
+    
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .container-itemMural div{
+        width: 30%;
+        padding: 0.4em 1em;
+    }
+    .container-itemMural .muralItem p{
+        pointer-events: none;
+    }
+
+    #footer-agend button{
+        padding: 0.5vh 5vw;
+    }
+
+    /* ---- Query - Minhas Reservas ---- */
+    .reservas{
+        display: block;
+    }
+    .reservaItem{
+        width: 60%;
+        margin: 0 auto;
+        height: fit-content;
+        margin-bottom: 8vh;
+    
+        font-size: 1.3rem;
+    }
+    .reservaItem span{
+        margin: 0 11vw;
+    }
+    .reservas .btns-res input{
+        width: 10em;
+        margin: 0 0.5em;
+    
+        border-radius: 5px;
+    }
+
+
+
+
+
+
+
+}
+
+@media (min-width: 801px) and (max-width: 1024px){
+    /* ---- Query - Login ---- */
+    #containerLogin{
+        width: 45%;
+    }
+
+    /* ---- Query - Laboratório ---- */
+    .item img{
+        width: 15em;
+        top: 1.2em;
+        right: 0;
+    }
+    .item .menuIte{
+        width: 3.5em;
+        top: 2.8em;
+        right: 2em;
+    }
+    .item ul{
+        top: 5.4em;
+        width: 8em;
+    }
+    .item ul li{
+        padding: 0.7em 1em;
+        letter-spacing: 2px;
+        font-size: .85rem;
+        background-color: rgba(187, 184, 184, 0.849);
+    }
+
+    .h2_title{
+        width: 20em;
+        margin: 40px auto;
+
+        font-size: .8rem;
+        
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+
+    .containerSala a{
+        width: 70%;
+    }
+    .containerSala img{
+        width: 4em;
+        padding: 1.5em 1em;
+    }
+    .containerSala div{
+        margin: 0;
+        padding: 0.5em 5em;
+        font-size: 0.9rem;
+    }
+    .containerSala div h3{
+        font-weight: bold;
+    }
+
+    /* ---- Query - Agendamentos ---- */
+    .slide-container .btn-icon{
+        padding: 0;
+    }
+    .slide-container .btn-icon img{
+        width: 4em;
+    }
+    .slide{
+        padding: 1em;
+        height: 9em;
+    }
+    .slide-item{
+        width: 100%;
+        padding: 1vh 2vw;
+        height: 8em;
+        margin: 0 3vw;
+    }
+    .slide-item p{
+        font-size: 1.3rem;
+    }
+    .slide-item h1{
+        font-size: 2.2em;
+    }
+
+    #horarios{
+        text-align: center;
+        margin-top: 3em;
+    }
+    #horarios h2{
+        font-size: 2em;
+        padding: 0 0 .5em 0;
+        margin-bottom: 0;
+    }
+    #horarios #mural{
+        width: 70%;
+        margin: 0 auto;
+        max-height: 70vh;
+        overflow: scroll;
+    }
+    .container-itemMural{
+        width: 100%;
+        margin: 3vh auto;
+        padding: 1vh 0;
+    
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+    .container-itemMural div{
+        width: 35%;
+        padding: 0.4em 1em;
+    }
+    .container-itemMural .muralItem p{
+        pointer-events: none;
+    }
+
+    #footer-agend button{
+        padding: 1vh 5vw;
+    }
+
+    /* ---- Query - Minhas Reservas ---- */
+    .reservas{
+        display: block;
+    }
+    .reservaItem{
+        width: 60%;
+        margin: 0 auto;
+        height: fit-content;
+        margin-bottom: 8vh;
+    
+        font-size: 1.3rem;
+    }
+    .reservaItem span{
+        margin: 0 11vw;
+    }
+    .reservas .btns-res input{
+        width: 15em;
+        margin: 0;
+    
+        border-radius: 5px;
+    }
+
+
+
+
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    /* ---- Query - Login ---- */
+    #containerLogin{
+        width: 35%;
+    }
+
+    /* ---- Query - Laboratório ---- */
+    .item img{
+        width: 20em;
+        top: 2em;
+        right: 0;
+    }
+    .item .menuIte{
+        width: 5em;
+        top: 3.2em;
+        right: 3em;
+    }
+    .item ul{
+        top: 7.2em;
+        width: 12em;
+    }
+    .item ul li{
+        padding: 1em 1em;
+        letter-spacing: 2px;
+        font-size: 1rem;
+        background-color: rgba(187, 184, 184, 0.849);
+    }
+
+    .h2_title{
+        width: 18em;
+        margin: 50px auto;
+
+        font-size: 1.1rem;
+        
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+
+    .containerSala a{
+        width: 65%;
+    }
+    .containerSala img{
+        width: 5em;
+        padding: 1em 0em;
+        margin: 0 -1em;
+    }
+    .containerSala div{
+        margin: 0;
+        padding: 0.5em 8em;
+        font-size: 0.9rem;
+    }
+    .containerSala div h3{
+        font-weight: bold;
+    }
+
+    /* ---- Query - Agendamentos ---- */
+    .slide-container .btn-icon{
+        padding: 0;
+    }
+    .slide-container .btn-icon img{
+        width: 4em;
+    }
+    .slide{
+        padding: 1em;
+        height: 10em;
+    }
+    .slide-item{
+        width: 100%;
+        padding: 2vh 2vw;
+        height: 8em;
+        margin: 0 3vw;
+    }
+    .slide-item p{
+        font-size: 1.5rem;
+    }
+    .slide-item h1{
+        font-size: 2.4em;
+    }
+
+    #horarios{
+        text-align: center;
+        margin-top: 3em;
+    }
+    #horarios h2{
+        font-size: 2.5em;
+        padding: 0 0 .5em 0;
+        margin-bottom: 0;
+    }
+    #horarios #mural{
+        width: 70%;
+        margin: 0 auto;
+        max-height: 70vh;
+        overflow: scroll;
+    }
+    .container-itemMural{
+        width: 100%;
+        margin: 3vh auto;
+        padding: 1vh 0;
+    
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+    .container-itemMural div{
+        width: 35%;
+        padding: 0.4em 1em;
+    }
+    .container-itemMural .muralItem p{
+        pointer-events: none;
+    }
+
+    #footer-agend button{
+        padding: 1vh 6vw;
+    }
+
+    /* ---- Query - Minhas Reservas ---- */
+    .reservas{
+        display: flex;
+        justify-content: space-around;
+    }
+    .reservaItem{
+        width: 30%;
+        margin: 0 auto;
+        height: fit-content;
+        margin-bottom: 8vh;
+    
+        font-size: 1.5rem;
+    }
+    .reservaItem span{
+        margin: 0 3.3vw;
+    }
+    .reservas .btns-res input{
+        width: 10em;
+        margin: 0;
+    
+        border-radius: 5px;
+    }
+    
+
 }
