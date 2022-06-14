@@ -151,6 +151,7 @@ form [value="cadastro"] {
 .area-validacao span {
     margin-top: 25px;
 }
+
 /* ---- CSS - Recuperação de Senha ---- */
 #area-recuperacao {
     display: flex;
