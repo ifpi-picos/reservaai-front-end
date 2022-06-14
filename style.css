@@ -175,6 +175,7 @@ form [value="cadastro"] {
     padding: 10px 0;
     border-radius: 10px;
     font-size: 15px;
+    text-indent: 10px;
 
 }
 #login h1{
@@ -318,6 +319,362 @@ form [value="cadastro"] {
 }
 #footer-lab span{
     font-weight: bold;
+}
+
+@media (min-width: 320px){
+    /* ---- CSS - Login ---- */
+    #containerLogin{
+        width: 80%;
+    }
+
+    /* ---- CSS - Laboratório ---- */
+    .item img{
+        width: 8em;
+        top: 1.2em;
+        right: 0;
+    }
+    .item .menuIte{
+        width: 2em;
+        top: 1.8em;
+    }
+    .item ul{
+        top: 2.8em;
+        width: 4.5em;
+    }
+    .item ul li{
+        padding: 0.7em 1em;
+        letter-spacing: 2px;
+        font-size: .7rem;
+        background-color: rgba(187, 184, 184, 0.849);
+    }
+
+    .h2_title{
+        width: 10em;
+        margin: 30px auto;
+
+        font-size: .6rem;
+        
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+
+    .containerSala a{
+        width: 80%;
+    }
+    .containerSala img{
+        width: 3em;
+        padding: 1.5em 1em;
+        margin: 0;
+    }
+    .containerSala div{
+        margin: 0;
+        padding: .1em .5em;
+        font-size: .8rem;
+    }
+    .containerSala div h3{
+        font-weight: bold;
+    }
+
+
+
+
+}
+@media(min-width: 480px){
+    /* ---- CSS - Login ---- */
+    #containerLogin{
+        width: 70%;
+    }
+
+    /* ---- CSS - Laboratório ---- */
+    .item img{
+        width: 10em;
+        top: 1.2em;
+        right: 0;
+    }
+    .item .menuIte{
+        width: 2em;
+        top: 2.5em;
+        right: 1.5em;
+    }
+    .item ul{
+        top: 3.5em;
+        width: 5em;
+    }
+    .item ul li{
+        padding: 0.7em 1em;
+        letter-spacing: 2px;
+        font-size: .7rem;
+        background-color: rgba(187, 184, 184, 0.849);
+    }
+
+    .h2_title{
+        width: 10em;
+        margin: 30px auto;
+
+        font-size: .6rem;
+        
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+
+    .containerSala a{
+        width: 80%;
+    }
+    .containerSala img{
+        width: 3em;
+        padding: 1.5em 1em;
+        margin: 0;
+    }
+    .containerSala div{
+        margin: 0;
+        padding: .1em .5em;
+        font-size: .8rem;
+    }
+    .containerSala div h3{
+        font-weight: bold;
+    }
+
+
+
+
+}
+
+@media (min-width: 600px){
+    /* ---- CSS - Login ---- */
+    #containerLogin{
+        width: 60%;
+    }
+
+    /* ---- CSS - Laboratório ---- */
+    .item img{
+        width: 10em;
+        top: 1.2em;
+        right: 0;
+    }
+    .item .menuIte{
+        width: 2em;
+        top: 2.5em;
+        right: 1.5em;
+    }
+    .item ul{
+        top: 3.5em;
+        width: 5em;
+    }
+    .item ul li{
+        padding: 0.7em 1em;
+        letter-spacing: 2px;
+        font-size: .75rem;
+        background-color: rgba(187, 184, 184, 0.849);
+    }
+
+    .h2_title{
+        width: 15em;
+        margin: 30px auto;
+
+        font-size: .7rem;
+        
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+
+    .containerSala a{
+        width: 80%;
+    }
+    .containerSala img{
+        width: 3em;
+        padding: 1.5em 1em;
+    }
+    .containerSala div{
+        margin: 0;
+        padding: .1em 4em;
+        font-size: .8rem;
+    }
+    .containerSala div h3{
+        font-weight: bold;
+    }
+
+
+
+
+
+
+
+}
+@media (min-width: 801px){
+    /* ---- CSS - Login ---- */
+    #containerLogin{
+        width: 45%;
+    }
+
+    /* ---- CSS - Laboratório ---- */
+    .item img{
+        width: 15em;
+        top: 1.2em;
+        right: 0;
+    }
+    .item .menuIte{
+        width: 3.5em;
+        top: 2.8em;
+        right: 2em;
+    }
+    .item ul{
+        top: 5.4em;
+        width: 8em;
+    }
+    .item ul li{
+        padding: 0.7em 1em;
+        letter-spacing: 2px;
+        font-size: .85rem;
+        background-color: rgba(187, 184, 184, 0.849);
+    }
+
+    .h2_title{
+        width: 20em;
+        margin: 30px auto;
+
+        font-size: .8rem;
+        
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+
+    .containerSala a{
+        width: 70%;
+    }
+    .containerSala img{
+        width: 4em;
+        padding: 1.5em 1em;
+    }
+    .containerSala div{
+        margin: 0;
+        padding: 0.5em 5em;
+        font-size: 0.9rem;
+    }
+    .containerSala div h3{
+        font-weight: bold;
+    }
+
+
+
+
+
+}
+@media (min-width: 1025px){
+    /* ---- CSS - Login ---- */
+    #containerLogin{
+        width: 35%;
+    }
+
+    /* ---- CSS - Laboratório ---- */
+    .item img{
+        width: 20em;
+        top: 2em;
+        right: 0;
+    }
+    .item .menuIte{
+        width: 5em;
+        top: 3.2em;
+        right: 3em;
+    }
+    .item ul{
+        top: 7.2em;
+        width: 12em;
+    }
+    .item ul li{
+        padding: 1em 1em;
+        letter-spacing: 2px;
+        font-size: 1rem;
+        background-color: rgba(187, 184, 184, 0.849);
+    }
+
+    .h2_title{
+        width: 25em;
+        margin: 50px auto;
+
+        font-size: .9rem;
+        
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+
+    .containerSala a{
+        width: 65%;
+    }
+    .containerSala img{
+        width: 5em;
+        padding: 1em 0em;
+        margin: 0 -1em;
+    }
+    .containerSala div{
+        margin: 0;
+        padding: 0.5em 8em;
+        font-size: 0.9rem;
+    }
+    .containerSala div h3{
+        font-weight: bold;
+    }
+
+
+
+}
+@media (min-width: 1281px){
+    /* ---- CSS - Login ---- */
+    #containerLogin{
+        width: 25%;
+    }
+
+    /* ---- CSS - Laboratório ---- */
+    .item img{
+        width: 20em;
+        top: 2em;
+        right: 0;
+    }
+    .item .menuIte{
+        width: 5em;
+        top: 3.2em;
+        right: 5em;
+    }
+    .item ul{
+        top: 7.2em;
+        width: 15em;
+    
+    }
+    .item ul li{
+        padding: 1em;
+        letter-spacing: 2px;
+        background-color: rgba(187, 184, 184, 0.849);
+    }
+    
+    .h2_title{
+        width: 40%;
+        margin: auto;
+        text-align: center;
+        margin: 50px auto;
+        
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+    
+    .containerSala a{
+        width: 70%;
+    }
+    .containerSala img{
+        width: 5em;
+        padding: 1em 0em;
+        margin: 0 -2em;
+    }
+    .containerSala div{
+        margin: 0 5em;
+        font-size: 1rem; 
+        padding: 0.5em 6em;
+    }
+    .containerSala div h3{
+        font-weight: bold;
+    }
+    
+
+
+    
 }
 
 /* ---- CSS - Agendamentos ---- */
