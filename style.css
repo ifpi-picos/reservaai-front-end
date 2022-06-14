@@ -103,7 +103,7 @@ form [value="cadastro"] {
     height: 100vh;
     flex-direction: column;
 }
-.pin-cont-codigo .pin-codigo {
+.pin-cont-validacao .cod-validacao {
     border: none;
     border-bottom: 4px solid #b3b3b3;
     color: #4d4d4d;
@@ -111,16 +111,16 @@ form [value="cadastro"] {
     background: 0 0;
     margin-right: 10px;
 }
-.pin-codigo {
+.cod-validacao {
     width: 1.2em;
     text-align: center;
     min-width: 60px;
     min-height: 38px;
 }
-.confirm-codigo {
+.confirm-pin {
     margin-top: 30px;
 }
-.confirm-codigo [value="Confirmar"] {
+.confirm-pin [value="Confirmar"] {
     background-color: #FF1616;
     color: #FFFF;
     border: none;
@@ -132,7 +132,7 @@ form [value="cadastro"] {
     margin-right: 5px;
     font-weight: bold;
 }
-.confirm-codigo [value="Cancelar"] {
+.confirm-pin [value="Cancelar"] {
     background-color: #b3b3b3;
     color: #000;
     border: none;
