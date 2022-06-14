@@ -105,7 +105,7 @@ form [value="cadastro"] {
     height: 100vh;
     flex-direction: column;
 }
-.pin-cont-codigo .pin-codigo {
+.pin-cont-validacao .cod-validacao {
     border: none;
     border-bottom: 4px solid #b3b3b3;
     color: #4d4d4d;
@@ -113,16 +113,16 @@ form [value="cadastro"] {
     background: 0 0;
     margin-right: 10px;
 }
-.pin-codigo {
+.cod-validacao {
     width: 1.2em;
     text-align: center;
     min-width: 60px;
     min-height: 38px;
 }
-.confirm-codigo {
+.confirm-pin {
     margin-top: 30px;
 }
-.confirm-codigo [value="Confirmar"] {
+.confirm-pin [value="Confirmar"] {
     background-color: #FF1616;
     color: #FFFF;
     border: none;
@@ -134,7 +134,7 @@ form [value="cadastro"] {
     margin-right: 5px;
     font-weight: bold;
 }
-.confirm-codigo [value="Cancelar"] {
+.confirm-pin [value="Cancelar"] {
     background-color: #b3b3b3;
     color: #000;
     border: none;
@@ -150,6 +150,51 @@ form [value="cadastro"] {
 }
 .area-validacao span {
     margin-top: 25px;
+}
+/* ---- CSS - Recuperação de Senha ---- */
+#area-recuperacao {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: 50px;
+}
+.container-img {
+    display: flex;
+    justify-content: center;
+}
+.form-corp {
+    display: block;
+    margin: 32px auto;
+    max-width: 374px;
+    overflow: visible;
+    width: 100%;
+}
+.senha {
+    height: 48px;
+    font-size: 15px;
+    border-radius: 4px;
+    width: 100%;
+}
+.buton-confirm {
+    padding: 0 24px;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 4px;
+    border: none;
+    background-color: #7ED957;
+    color: #FFFF;
+    width: 100%;
+    height: 48px;
+    font-size: 20px;
+    font-weight: bold;
+}
+h3 {
+    font-weight: bold;
+    font-size: 25px;
+}
+.desc-baixo {
+    font-size: 13px;
 }
 
 /* ---- CSS - Login ---- */
