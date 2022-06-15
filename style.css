@@ -74,13 +74,11 @@ form [value="cadastro"] {
     text-indent: 10px;
     border-radius: 10px;
 }
-.cadastro form [type="submit"] {
+.cadastro button {
     display: block;
     color: #FFFF;
     background-color: #FF1616;
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
+    font-size: 19px;
     cursor: pointer;
     margin-top: 25px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -96,6 +94,9 @@ form [value="cadastro"] {
 .cadastro p {
     display: flex;
     justify-content: center;
+}
+.cadastro .final{
+    color: #fff;
 }
 .cadastro a {
     color: green;
@@ -283,6 +284,7 @@ form [value="cadastro"] {
 #buttonE a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 #Esqueceuasenha{
     border: none;
