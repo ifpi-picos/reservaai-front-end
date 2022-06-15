@@ -10,14 +10,21 @@
 </head>
 <body>
     <div id="area-recuperacao">
-        <div class="container-img">
+        <div class="img">
             <img src="../imgs/ReservaAÍ_sem_fundo_cortada.png" alt="Logo ReservaAí">
         </div>
         <div class="form-corp">
+            <h3>Criar uma nova senha</h3>
+            <p>Apartir de agora você vai usar essa senha para entrar no ReservaAÍ.</p>
             <form>
-                <h3>Criar uma nova Senha</h3>
-                <p>Apartir de agora você vai usar essa senha para entrar no ReservaAÍ.</p>
-                <input type="password" value="" class="senha" placeholder="Nova Senha">
+                <div class="inputsenha">
+                    <label for="NovaS">Nova Senha</label>
+                    <input type="password" placeholder="Digite uma nova senha">
+                </div>
+                <div class="inputsenha">
+                    <label for="NovaSC">Confirmar Senha</label>
+                    <input type="password" placeholder="Digite sua senha novamente">
+                </div>
                 <p class="desc-baixo">Use no mínimo seis caracteres (com distinção entre maiúsculas e minúsculas) com pelo menos um número ou caractere especial.</p>
                 <button type="submit" class="buton-confirm">CONFIRMAR</button>
             </form>
