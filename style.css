@@ -78,7 +78,8 @@ form [value="cadastro"] {
     display: block;
     color: #FFFF;
     background-color: #FF1616;
-    font-size: 19px;
+    font-size: 24px;
+    font-weight: bold;
     cursor: pointer;
     margin-top: 25px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -94,12 +95,15 @@ form [value="cadastro"] {
 .cadastro p {
     display: flex;
     justify-content: center;
+    font-size: 13px;
+    color: #000;
+    font-weight: bold;
 }
 .cadastro .final{
     color: #fff;
 }
 .cadastro a {
-    color: green;
+    color: #54d83a;
     text-decoration: none;
     margin-left: 3px;
 }
@@ -202,15 +206,17 @@ form [value="cadastro"] {
     padding: 0 24px;
     cursor: pointer;
     justify-content: center;
-    border-radius: 4px;
+    border-radius: 10px;
     border: none;
     background-color: #7ED957;
     color: #FFFF;
     width: 100%;
     height: 48px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     margin-top: 25px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .form-corp h3 {
     display: flex;
@@ -225,7 +231,12 @@ form [value="cadastro"] {
     margin: 2px 0 2px 0;
 }
 .desc-baixo {
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.confirm {
+    color: #fff;
+    text-decoration: none;
 }
 
 /* ---- CSS - Login ---- */
@@ -272,12 +283,13 @@ form [value="cadastro"] {
 #buttonE{
     background-color: #54d83a;
     border: none;
-    padding: 15px;
+    padding: 0.4em 0;
    
     width: 90%;
     border-radius: 10px;
     color: white;
-    font-size: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -958,7 +970,7 @@ form [value="cadastro"] {
         padding: 1vh 0;
     
         font-size: 1rem;
-        font-weight: bold;
+        font-weight: none;
     }
     .container-itemMural div{
         width: 30%;
@@ -1005,7 +1017,7 @@ form [value="cadastro"] {
         width: 60%;
     }
 
-    /* ---- Query - Laboratório ---- */
+    /* ---- Query - Laboratórios ---- */
     .item img{
         width: 10em;
         top: 1.2em;
@@ -1042,7 +1054,7 @@ form [value="cadastro"] {
     }
     .containerSala img{
         width: 3em;
-        padding: 1.5em 1em;
+        padding: 1.5em 3em;
     }
     .containerSala div{
         margin: 0;
@@ -1098,7 +1110,7 @@ form [value="cadastro"] {
         padding: 1vh 0;
     
         font-size: 1rem;
-        font-weight: bold;
+        font-weight: none;
     }
     .container-itemMural div{
         width: 30%;
@@ -1185,7 +1197,7 @@ form [value="cadastro"] {
     }
     .containerSala img{
         width: 4em;
-        padding: 1.5em 1em;
+        padding: 1.5em 2.5em;
     }
     .containerSala div{
         margin: 0;
@@ -1241,7 +1253,7 @@ form [value="cadastro"] {
         padding: 1vh 0;
     
         font-size: 1.4rem;
-        font-weight: bold;
+        font-weight: none;
     }
     .container-itemMural div{
         width: 35%;
@@ -1288,11 +1300,6 @@ form [value="cadastro"] {
     #containerLogin{
         width: 35%;
     }
-    /* ---- Query - Cadastro ---- */
-    /*.area-cadastro{
-        width: 35%;
-    }
-
     /* ---- Query - Laboratório ---- */
     .item img{
         width: 20em;
@@ -1387,7 +1394,7 @@ form [value="cadastro"] {
         padding: 1vh 0;
     
         font-size: 1.7rem;
-        font-weight: bold;
+        font-weight: none;
     }
     .container-itemMural div{
         width: 35%;
