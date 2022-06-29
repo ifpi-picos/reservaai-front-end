@@ -65,7 +65,7 @@ form [value="cadastro"] {
 }
 .area-inicio-pag h2 {
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #1c1e21;
     max-width: 500px;
 }
@@ -73,6 +73,12 @@ form [value="cadastro"] {
     background-color: #fff;
     padding: 16px;
     border-radius: 10px;
+    text-align: center;
+}
+.area-inicio-pag form span{
+    display: block;
+    padding: 0.3em;
+    /* border: 1px solid black; */
 }
 .area-inicio-pag form a, .area-inicio-pag input, .area-inicio-pag button {
     display: block;
