@@ -40,6 +40,63 @@ body {
 form [value="cadastro"] {
     background-color: red;
 }
+/* ---- CSS - Tela Inicial ---- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.area-inicio-pag {
+    padding-top: 130px;
+    padding-bottom: 200px;
+    max-width: 980px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+.logo {
+    display: block;
+    max-width: 100%;
+    height: 106px;
+    margin: -18px;
+}
+.area-inicio-pag h2 {
+    font-weight: 400;
+    font-size: 28px;
+    color: #1c1e21;
+    max-width: 500px;
+}
+.area-inicio-pag form {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 10px;
+}
+.area-inicio-pag form a, input, button {
+    display: block;
+}
+.area-inicio-pag button {
+    margin-bottom: 12px;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+}
+.login1 {
+    background-color: #54d83a;
+    width: 100%;
+}
+.cadastro2 {
+    background-color: #FF1616;
+    width: 100%;
+}
+.area-inicio-pag a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
 
 /* ---- CSS - Cadastro ---- */
 #area-cadastro {
@@ -208,7 +265,7 @@ form [value="cadastro"] {
     justify-content: center;
     border-radius: 10px;
     border: none;
-    background-color: #7ED957;
+    background-color: #54d83a;
     color: #FFFF;
     width: 100%;
     height: 48px;
